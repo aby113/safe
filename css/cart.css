@@ -1,0 +1,177 @@
+section > header{
+    display: inline-block;
+}
+
+section.container{
+    padding-left: 30px;
+}
+
+
+
+article{
+    margin-top: 50px;
+}
+
+article > header > h2{
+    float: left;
+    color:black;
+}
+
+.top{
+    float: right;
+    margin-top: 10px;
+}
+
+article > hr{
+    position: relative;
+    top: 50px;
+}
+
+/* 화살표 가이드라인 */
+.top span{
+    margin: 0 12px 0 0;
+    padding: 0 27px 0 0;
+    color: #bdbcbc;
+    font-size: 16px;
+}
+
+.top span:nth-child(2){
+    background: url(../images/join-step2.png) no-repeat right 7px;
+    margin: 0 12px 0 0;
+    padding: 0 27px 0 0;
+    color: #bdbcbc !important;
+    font-size: 16px;
+}
+
+.this{
+    background: url(../images/join-step.png) no-repeat right 7px;
+    color: #ff4c2e !important;
+}
+
+/* 탑화살표 가이드라인 끝 */
+
+section > header{
+    position: relative;
+    right: 985px;
+}
+
+h3{
+    float: left;
+}
+
+.top{
+    float: right;
+}
+
+h3 > strong{
+    color: black;
+}
+
+.body{
+    position: relative;
+    top: 50px;
+}
+
+table{
+    border-top: 1px solid #717171;
+   width:100%;
+   position: relative;
+   bottom: 40px;
+}
+
+tr{
+    border-bottom: 1px solid #dbdbdb;
+}
+
+th{
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+th, td{
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+input[type=checkbox]{
+    margin-top: 5px;
+}
+
+a, a:hover{
+    color: black;
+}
+
+table+a{
+    position: relative;
+    bottom: 30px;
+}
+
+.price-box{
+   
+    border: 2px solid #d6d6d6;
+    position: relative;
+    bottom: 23px;
+    padding: 38px 40px 28px;
+
+}
+
+.footer{
+   margin-top: 50px;
+}
+
+.price-box > p{
+    display: inline-block;
+    margin-left: 550px;
+}
+
+.detail{
+    font-size: 15px;
+}
+
+.deliveryCalc{
+    font-size: 14px;
+}
+
+.total-price{
+    font-size: 24px;
+}
+
+.btn-group > .right-box{
+    margin-left: 593px;
+}
+
+
+/* 상품 수량조절  */
+/* 수량텍스트 */
+.count{
+    position: relative;
+    left: 20px;
+}
+
+.count-area{
+    position: relative;
+    bottom: 2px;
+}
+
+.count > *{
+    float: left;
+}
+
+input.goods-cnt{
+    padding-left: 15px;
+    width: 40px;
+    height: 32px;
+}
+
+.count-area > a{
+    
+    display: block;
+    height: 18px;
+}
+
+.downBtn{
+    position: relative;
+    bottom: 3px;
+}
+
+/* 수량조절끝 */

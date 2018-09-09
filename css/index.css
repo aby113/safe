@@ -1,0 +1,68 @@
+section{
+    height: 1850px;
+  }
+article{
+  padding-left: 209px;
+    padding-right: 209px;
+}
+
+.main-box{
+  margin-bottom: 50px;
+}
+
+div.main-box > ul{
+  padding:0px;
+  list-style-type: none;
+  
+}
+
+div.main-box > ul li{
+  float:left;
+}
+
+div.main-box img{
+  
+  width: 270px;
+}
+
+span.h2-category{
+  font-weight: normal;
+  color: #999999;
+  font-size:12px;
+}
+
+h2{
+  display:inline;
+}
+
+ul.cate-list{
+  display: inline;
+  list-style-type: none;
+}
+
+.cate-list li{
+  margin-top: 13px;
+  float: right;
+}
+
+/* 상품리스트 */
+.portfolio-item{
+height: 340px;
+}
+
+.card-title a{
+  color:black;
+}
+
+.card-text{
+  color:red;
+}
+
+.card{
+    border:none;
+}
+
+/* 상품리스트 끝 */
+.clear{
+  clear: both;
+}

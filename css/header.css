@@ -1,0 +1,83 @@
+body{
+    padding: 0px;
+    color: #717171;
+    font-family: Malgun Gothic,"맑은 고딕",AppleGothic,Dotum,"돋움",sans-serif;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .head-wrap{
+    background: url(../images/top_bg.jpg);
+    height: 177px;
+    position: relative;
+      bottom: 15px;
+  
+  }
+  
+  .top-link-wrap{
+    margin-right: 200px;
+    height: 25px;
+  }
+  
+  .top-link{
+    position: relative;
+    top: 5px;
+    vertical-align: bottom;
+    list-style-type:none;
+  }
+
+  .top-link li{
+    float: right;
+  }
+  
+  .top-link a{
+      display: inline-block;
+      color: #b6b3b3;
+      font-family: '돋움', dotum, sans-serif;
+      font-size: 11px;
+      padding: 0 7px;
+      letter-spacing: -1px;
+      border-right: 1px solid #84645d;
+  }
+  
+  .container{
+    height: 110px;
+  }
+  .top-service{
+    background: url(../images/ct_bg.png);
+    height: 42px;
+  }
+  ul{
+    list-style-type: none;
+  }
+
+  .top-service ul{
+    display: table;
+    margin: 0;
+    float: left;
+  }
+  .top-service li{
+    float: left;
+  }
+
+  .top-service li a{
+    display: block;
+    padding: 0 25px;
+    line-height: 42px;
+    letter-spacing: -1px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #ececec;
+    font-weight: normal;
+    height: 42px;
+  }
+
+
+  
+    /* .cate-list a {
+    color:#717171;
+  }
+  .cate-list li{
+    position: relative;
+    top: 7px;
+    margin-right: 10px;
+  } */

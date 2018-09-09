@@ -1,0 +1,41 @@
+header span{
+    position: relative;
+    right: 1000px;
+}
+
+section.container{
+    padding-left: 300px;
+}
+
+h2{
+    margin-top: 45px;
+}
+
+article{
+    margin-top: 20px;
+    padding: 55px;
+    padding-top: 40px;
+    width:579px;
+    height: 320px;
+    border:1px solid black;
+}
+
+.input-info{
+    float: left;
+    width: 280px;
+}
+
+.loginBtn{
+    width: 172px;
+    height: 94px;
+    margin-left: 10px;
+}
+
+.btn-group button{
+    margin-right: 20px;
+    width: 143px;
+}
+
+.clear{
+    clear: both;
+}

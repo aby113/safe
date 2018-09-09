@@ -1,0 +1,154 @@
+section > header{
+    display: inline-block;
+}
+
+section.container{
+    padding-left: 30px;
+}
+
+
+
+article{
+    margin-top: 50px;
+}
+
+article > header > h2{
+    float: left;
+    color:black;
+}
+
+.top{
+    float: right;
+    margin-top: 10px;
+}
+
+article > hr{
+    position: relative;
+    top: 50px;
+}
+
+/* 화살표 가이드라인 */
+.top span{
+    margin: 0 12px 0 0;
+    padding: 0 27px 0 0;
+    color: #bdbcbc;
+    font-size: 16px;
+}
+
+.top span:nth-child(1){
+    background: url(../images/join-step2.png) no-repeat right 7px;
+    margin: 0 12px 0 0;
+    padding: 0 27px 0 0;
+    color: #bdbcbc !important;
+    font-size: 16px;
+}
+
+.this{
+    background: url(../images/join-step.png) no-repeat right 7px;
+    color: #ff4c2e !important;
+}
+
+/* 탑화살표 가이드라인 끝 */
+
+.body{
+    margin-top: 50px;
+    padding-left: 182px;
+    padding-right: 182px;
+    padding-top: 63px;
+}
+
+.title{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+}
+
+.title > h3{
+    float:left;
+}
+
+.title > p{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    margin-left: 350px;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    padding-left: 20px;
+    background-color: #F9F9F9;
+}
+
+th, td{
+    vertical-align: initial;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+td{
+    padding: 12px 20px;
+}
+
+tbody > tr:nth-child(4) > td, tbody > tr:nth-child(5) td{
+    padding-bottom: 0px;
+}
+
+input[type=text]{
+    padding-left: 10px !important;
+    width: 70%;
+    height: 31px;
+    padding: 0;
+    color: #444;
+    line-height: 31px;
+}
+
+select{
+    height: 30px;
+}
+
+td > p{
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+td.address > p{
+    margin-top: 10px;
+}
+
+.required{
+  
+}
+
+tbody > tr:nth-child(1) > th > img{
+    margin:0px;
+}
+
+tbody > tr:nth-child(1n + 4) th{
+    padding-left: 28px;
+}
+
+th > img{
+    margin-right: 5px;
+}
+
+div.btn-group{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+
+.btn-group button{
+    margin-right: 10px;
+    width: 203px;
+    height: 55px;
+}
+
+span.danger{
+    color: red;
+}
+
+.errorMessage{
+    color:red;
+  }
+  
